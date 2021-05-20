@@ -1,0 +1,296 @@
+.productCenter {
+  width: 100%;
+  background: url(../image/bg9-1.jpg) center center no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.productCenter-l {
+  height: 100%;
+  background: url(../image/tb_22-1.png) repeat;
+  padding-top: 38px;
+  flex: 0 0 13.5%;
+}
+.productCenter-l h2 {
+  width: 100%;
+  padding-left: 13.8%;
+  margin-bottom: 19px;
+  height: 54px;
+}
+.productCenter-l h2 span {
+  height: 54px;
+  line-height: 54px;
+  display: inline-block;
+  padding-left: 17.8%;
+  color: #fff;
+  font-size: 24px;
+  background: url(../image/tb_23-1.png) left center no-repeat;
+}
+.productCenter-l .sidebar-nav {
+  width: 100%;
+  height: 800px;
+  overflow-y: auto;
+}
+.productCenter-l .sidebar-nav li {
+  width: 100%;
+}
+.productCenter-l .sidebar-nav li a {
+  width: 100%;
+  height: 70px;
+  transition: all ease-out 0.2s;
+  display: inline-block;
+  line-height: 70px;
+  color: #fff;
+  font-size: 16px;
+  overflow: hidden;
+  text-align: center;
+}
+.productCenter-l .sidebar-nav li:hover a,
+.productCenter-l .sidebar-nav li.active a {
+  background: url(../image/tb_25-1.png) repeat;
+  color: #333333;
+}
+
+/* ???？？？？？？？？？？？？？？？？？？？？？？？？？ 又学了一招
+    解答：伪元素选择器去修改各式webkit浏览器的滚动条样式
+*/
+.sidebar-nav::-webkit-scrollbar {
+  /* ::-webkit-scrollbar — 整个滚动条. */
+  width: 1px;
+  border-radius: 1px;
+  height: 1px;
+  background: none;
+}
+.sidebar-nav::-webkit-scrollbar-track {
+  /* ::-webkit-scrollbar-track — 滚动条轨道. */
+  background-color: #fff;
+}
+.sidebar-nav::-webkit-scrollbar-thumb {
+  /* ::-webkit-scrollbar-thumb — 滚动条上的滚动滑块. */
+  width: 1px;
+  height: 1px;
+  border-radius: 1px;
+  background-color: #68b9fe;
+}
+.productCenter-r {
+  flex: 1 1 auto;
+  padding: 110px 0 140px 0;
+  margin-left: 5.37%;
+}
+.productCenter-r .producCenter-r-list {
+  width: 81%;
+}
+.producCenter-r-list li.list-active .tabs > div,
+.producCenter-r-list > li {
+  display: none;
+}
+.producCenter-r-list li.list-active .tabs > div.active,
+.producCenter-r-list > li.list-active {
+  display: block;
+  -webkit-animation: fadeInProduc ease-in-out 0.3s;
+          animation: fadeInProduc ease-in-out 0.3s;
+}
+@-webkit-keyframes fadeInProduc {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeInProduc {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.producCenter-r-list .tabs > ul {
+  width: 100%;
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.producCenter-r-list .tabs > ul li {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 15px;
+  margin: 0 5px;
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+}
+.producCenter-r-list .tabs > ul li.active {
+  background-color: #fff;
+  color: #004b98;
+}
+.producCenter-r-list .tabs > div {
+  width: 100%;
+}
+.producCenter-r-list .tabs > div ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.producCenter-r-list .tabs > div > ul li,
+.producCenter-r-list .tabs > div > div > div li {
+  width: 25%;
+  padding: 0 1% 2% 1%;
+}
+.producCenter-r-list .tabs > div li .a_img {
+  width: 100%;
+  height: 26vmin;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+.producCenter-r-list .tabs > div li .a_img img {
+  width: 100%;
+}
+.Amplification img {
+  transition: 400ms;
+  filter: Alpha(Opacity=100);
+  opacity: 1;
+}
+.Amplification:hover img {
+  filter: Alpha(Opacity=100);
+  opacity: 1;
+  transform: scale(1.12);
+}
+.a_img .a_text {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 16px;
+  display: inline-block;
+  overflow: hidden;
+  text-align: center;
+  background: url(../image/tb_24-1.png) repeat;
+}
+.product-tabs-tit {
+  text-align: center;
+}
+.product-tabs-tit > ul {
+  text-align: center;
+  padding: 50px 0 10px;
+  font-size: 16px;
+  display: inline-block !important;
+}
+.product-tabs-tit > ul li {
+  display: inline;
+  text-align: center;
+}
+.product-tabs-tit > ul li a {
+  padding: 0 15px;
+  height: 40px;
+  margin-bottom: 5px;
+  line-height: 40px;
+  background-color: #0061ae;
+  color: #fff;
+  display: inline-block;
+}
+.next,
+.prev {
+  padding: 0 15px;
+  height: 40px;
+  margin-bottom: 5px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #0061ae;
+  color: #fff;
+  display: inline-block;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.product-tabs-tit > ul li.active a,
+.product-tabs-tit > ul a:hover,
+.product-tabs-tit .prev:hover,
+.product-tabs-tit .next:hover {
+  color: #0061ae;
+  background-color: #cadeee;
+}
+
+@media (max-width: 1500px) {
+  
+  .productCenter-r .producCenter-r-list {
+    width: 94%;
+  }
+  
+}
+@media (max-width: 1200px) {
+  .productCenter{
+    flex-wrap: wrap;
+  }
+  .productCenter-r {
+    margin: 0;
+    padding: 0;
+  }
+  .productCenter-r .producCenter-r-list {
+    width: 100%;
+    padding: 25px 3%;
+  }
+  .productCenter-l {
+    flex: 0 0 100%;
+    height: auto;
+    background: none;
+    padding-top: 0;
+  }
+  .productCenter-l h2 {
+    width: 100%;
+    padding: 3% 0;
+    background: url(../image/zxl_jt1-1.jpg) right center no-repeat;
+    font-size: 16px;
+    text-align: center;
+    background-color: #004b98;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 0;
+    height: auto;
+  }
+  .productCenter-l h2 span{
+        height: auto;
+    line-height: normal;
+    display: inline-block;
+    padding-left: 0;
+    color: #fff;
+    font-size: inherit;
+     background:none;
+  }
+  .productCenter-l .sidebar-nav {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    z-index: 1000000000;
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    text-indent: 0;
+    box-shadow: 0 0 10px #c7c5bf;
+    overflow-y: initial;
+    display: none;
+  }
+  .productCenter-l .sidebar-nav li a{
+    padding: 3.14% 0;
+    color: #004b98;
+    font-size: 14px;
+    height: auto;
+    line-height: normal;
+  }
+  .sidebar-nav::-webkit-scrollbar{
+    display: none;
+  }
+  .productCenter-l .sidebar-nav li:hover a, .productCenter-l .sidebar-nav li.active a {
+    background: none;
+    color: #004b98;
+}
+}
+@media (max-width:767px){
+  .producCenter-r-list .tabs > div > ul li,
+.producCenter-r-list .tabs > div > div > div li {
+  width: 50%;
+}
+}

@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="./cavas/index.css" />
+<section class="ui_div">
+  <div class="centern">
+    <div class="n_box1">
+      <div class="r_center history">
+        <div class="box">
+          <ul></ul>
+        </div>
+      </div>
+      <p class="r_btm">
+        请使用<img src="./image/mouse-1.png" />鼠标滚轮或<img
+          src="./image/key-1.png"
+        />键盘方向键查看
+      </p>
+      <script type="text/javascript" src="./cavas/app.js"></script>
+      <script src="./cavas/jquery.mousewheel.js"></script>
+      <script>
+        $(function () {
+          $.ajax({
+            type: "get",
+            url: "./data/about.json",
+            dataType: "json",
+            success: function (res) {
+              console.log(res);
+              historyFn(res);
+            },
+          });
+        });
+      </script>
+    </div>
+  </div>
+</section>

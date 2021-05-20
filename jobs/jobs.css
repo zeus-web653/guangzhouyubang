@@ -1,0 +1,657 @@
+.jobs-ban-img {
+  width: 100%;
+  height: 550px;
+  background: url(../image/20190830031821708.jpg) center/cover no-repeat;
+  position: relative;
+}
+.talentConcept {
+  width: 100%;
+  overflow: hidden;
+}
+.concept-cent {
+  width: 1400px;
+  margin: 0px auto;
+}
+.concept-tit {
+  margin-bottom: 15px;
+}
+.describe {
+  width: 100%;
+  margin-bottom: 28px;
+  line-height: 1.8;
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+}
+.concept-cont {
+  width: 100%;
+}
+.concept-cont .concept-cont-l {
+  width: 50%;
+  height: 292px;
+  display: inline-block;
+  overflow: hidden;
+  background: url(../image/20190809124122528-1.jpg) no-repeat center/100%;
+}
+.concept-cont .concept-cont-r {
+  width: 48%;
+}
+.concept-cont .concept-cont-r p {
+  padding-top: 25px;
+  line-height: 200%;
+  overflow: hidden;
+  color: #333;
+  font-size: 16px;
+  font-family: "微软雅黑";
+}
+
+/* Recruitment */
+.Recruitment {
+  width: 100%;
+  background-image: url(../image/bg7-1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-x: center !important;
+}
+.recrui-cent {
+  width: 100%;
+  padding: 65px 15%;
+}
+.recrui-cent .recrui-tit {
+  width: 100%;
+  height: 72px;
+  line-height: 72px;
+  text-align: center;
+  color: #fff;
+}
+.recrui-cent .recrui-tit a {
+  margin: 0 25px;
+  height: 72px;
+  line-height: 72px;
+  display: inline-block;
+  color: #fff;
+  font-size: 30px;
+}
+.recrui-cent .recrui-tit a.a_activetz {
+  background: url(../image/img12-1.jpg) bottom repeat-x;
+  color: #fff;
+  text-decoration: none;
+}
+
+.recru-p {
+  width: 100%;
+  padding-top: 35px;
+  text-align: center;
+  margin-bottom: 25px;
+  line-height: 1.8;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+}
+.recru-p p {
+  font-size: 18px;
+}
+.a-careers-c {
+  width: 100%;
+  /* background-color: #fff; */
+}
+.a-careers-c dt {
+  width: 100%;
+  float: left;
+  height: 45px;
+  margin-bottom: 3px;
+  font-weight: normal;
+  line-height: 45px;
+  background-color: #024385;
+  color: #fff;
+  font-size: 18px;
+}
+.a-careers-c dt .w1 {
+  width: 27.5%;
+  padding-left: 5%;
+}
+.a-careers-c dt .w2 {
+  width: 24.4%;
+  text-align: center;
+}
+.a-careers-c dt .w3 {
+  width: 16.8%;
+  text-align: center;
+}
+.a-careers-c dt .w4 {
+  width: 31.3%;
+  text-align: center;
+}
+.a-careers-c dd {
+  width: 100%;
+  float: left;
+  background-color: #fff;
+  margin-bottom: 3px;
+  display: none;
+}
+/* <!-- intr-Header 介绍头 --> */
+.a-careers-c dd .intr-Header {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  background: url(../image/ee-1.png) right 25px center no-repeat;
+}
+.a-careers-c dd .intr-Header.activeds {
+  background: url(../image/ee1-1.png) right 25px center no-repeat;
+  background-color: #4b9ff3;
+  color: #fff;
+}
+
+.a-careers-c dd .intr-Header .w1 {
+  width: 27.5%;
+  padding-left: 5%;
+}
+.a-careers-c dd .intr-Header .w2 {
+  width: 24.4%;
+  text-align: center;
+}
+.a-careers-c dd .intr-Header .w3 {
+  width: 16.8%;
+  text-align: center;
+}
+.a-careers-c dd .intr-Header .w1 {
+  width: 31.3%;
+  text-align: center;
+}
+/* 介绍内容 */
+.a-careers-c dd .intr-cont {
+  width: 100%;
+  background-color: #fff;
+  padding: 3% 5%;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.8;
+  overflow: hidden;
+  display: none;
+  text-align: left;
+}
+.a-careers-c dd .intr-cont > span {
+  font-weight: bold;
+}
+
+.a-careers-c dd .intr-cont .applyFor {
+  width: 100%;
+  padding-top: 20px;
+  text-align: right;
+}
+
+.applyFor a {
+  padding: 0 23px;
+  height: 45px;
+  line-height: 45px;
+  display: inline-block;
+  border-radius: 22.5px;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  background-color: #4b9ff3;
+}
+.applyFor a span {
+  display: inline-block;
+  height: 45px;
+  padding-left: 30px;
+  background: url(../image/tb_29-1.png) left center no-repeat;
+}
+/* iWantToApply */
+
+.apply-tab {
+  width: 100%;
+  background-color: #eee;
+  padding: 0 15%;
+  margin: 0 auto;
+}
+.apply-tab .apply-tab-cent {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 65px;
+  overflow: hidden;
+}
+.apply-tab .apply-tab-cent a {
+  padding: 0 30px;
+  height: 65px;
+  margin: 0 10px;
+  display: inline-block;
+  overflow: hidden;
+  text-align: center;
+  line-height: 65px;
+  color: #333333;
+  font-size: 16px;
+}
+.apply-tab .apply-tab-cent a:hover,
+.apply-tab .apply-tab-cent a.activetm1 {
+  color: #fff;
+  text-decoration: none;
+  background-color: #004b98;
+}
+
+.news {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.apply-form {
+  width: 100%;
+  padding-top: 25px;
+}
+.apply-form form {
+  width: 67%;
+  margin: 0 auto;
+}
+.apply-form form label {
+  width: 50%;
+  padding: 13px 3%;
+  float: left;
+}
+
+.apply-form form label input {
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  overflow: hidden;
+  border: 1px solid #c9c9c9;
+  color: #333;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  text-indent: 15px;
+}
+.self {
+  width: 100%;
+  padding: 21px 3%;
+  float: left;
+}
+.self textarea {
+  width: 100%;
+  padding: 15px;
+  height: 280px;
+  font-weight: normal;
+  border: 1px solid #c9c9c9;
+  color: #333;
+  font-size: 14px;
+  font-family: "微软雅黑";
+}
+p.self input {
+  height: 43%;
+  height: 60px;
+  background-color: #024385;
+  border-radius: 30px;
+  line-height: 60px;
+  border: 0;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+}
+.mc-Apply-menu {
+  display: none;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+.mc-Apply-menu .mc-menu-t {
+  width: 100%;
+  padding: 3% 0px;
+  background: url(../image/zxl_jt1-1.jpg) right center no-repeat;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  background-color: #004b98;
+  cursor: pointer;
+  background-size: 30px;
+}
+.mc-Apply-menu .mc-menu-c {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #eee;
+  text-indent: 0;
+  display: none;
+  box-shadow: 0 0 10px #c7c5bf;
+}
+.mc-menu-c li {
+  width: 100%;
+  left: left;
+  text-align: center;
+}
+.mc-menu-c li .aone {
+  width: 100%;
+  padding: 3%;
+  display: inline-block;
+  color: #004b98;
+  font-size: 14px;
+  text-decoration: none;
+  text-indent: 0;
+}
+@media screen and (min-width: 1501px) {
+  .concept-cent {
+    width: 100%;
+    padding: 55px 15%;
+  }
+}
+@media screen and (max-width: 1500px) and (min-width: 1401px) {
+  .jobs-ban-img {
+    height: 550px;
+  }
+  .talentConcept .concept-cent {
+    padding: 55px 15%;
+  }
+  .talentConcept .concept-cent .concept-tit {
+    margin-bottom: 0;
+  }
+  .Recruitment .recrui-cent {
+    padding: 25px 15%;
+  }
+  .Recruitment .recrui-tit a {
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+  }
+  .a-careers-c dd .intr-Header.activeds {
+    font-size: 16px;
+    background: url(../image/ee1-1.png) right 5px center no-repeat;
+    background-color: #298df2;
+    background-size: 10px;
+  }
+  .a-careers-c dd .intr-Header {
+    font-size: 16px;
+    background: url(../image/ee1-1.png) right 5px center no-repeat;
+    background-size: 10px;
+  }
+  .news {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .box-tit small{
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 1400px) and (min-width: 1201px) {
+  .jobs-ban-img {
+    height: 380px;
+  }
+  .talentConcept .concept-cent {
+    width: 100%;
+    padding: 55px 10%;
+  }
+  .Recruitment .recrui-cent {
+    width: 100%;
+    padding: 25px 10%;
+  }
+  .Recruitment .recrui-tit a {
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+  }
+  .a-careers-c dd .intr-Header {
+    font-size: 16px;
+    background: url(../image/ee1-1.png) right 5px center no-repeat;
+    background-size: 10px;
+  }
+  .a-careers-c dd .intr-Header.activeds {
+    font-size: 16px;
+    background: url(../image/ee1-1.png) right 5px center no-repeat;
+    background-color: #298df2;
+    background-size: 10px;
+  }
+  .news {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .apply-form form .self,
+  .apply-form form label{
+    padding: 10px 1%;
+  }
+  
+}
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+  .jobs-ban-img {
+    height: 320px;
+    /* margin-top: 56px; */
+  }
+  .talentConcept .concept-cent {
+    width: 100%;
+    padding: 40px 2%;
+  }
+  .talentConcept .concept-cent .concept-tit {
+    margin-bottom: 0;
+  }
+  .Recruitment .recrui-cent {
+    padding: 25px 2%;
+  }
+  .Recruitment .recrui-tit a {
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+  }
+  .news {
+    width: 100%;
+    padding: 40px 2%;
+  }
+  .a-careers-c dd .intr-Header {
+    font-size: 16px;
+    background: url(../image/ee1-1.png) right 5px center no-repeat;
+    background-size: 10px;
+  }
+  .a-careers-c dd .intr-Header.activeds {
+    font-size: 16px;
+    background: url(../image/ee1-1.png) right 5px center no-repeat;
+    background-color: #298df2;
+    background-size: 10px;
+  }
+  .apply-tab {
+    display: none;
+  }
+  .mc-Apply-menu {
+    display: block;
+  }
+  .box-tit small{
+    margin-bottom: 0;
+  }
+  .apply-form form .self,
+  .apply-form form label{
+    padding: 10px 1%;
+  }
+  
+}
+
+/* 单独的断点 */
+
+@media (max-width: 992px) and (min-width: 767px) {
+  .jobs-ban-img {
+    height: 260px;
+    /* margin-top: 56px; */
+  }
+  .talentConcept .concept-cent {
+    width: 100%;
+    padding: 30px 2%;
+  }
+  .Recruitment .recrui-tit a {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+  }
+  .news {
+    width: 100%;
+    padding: 30px 2%;
+  }
+  .a-careers-c dd .intr-Header {
+    font-size: 14px;
+    background: url(../image/ee1-1.png) right 5px center no-repeat;
+    background-size: 10px;
+  }
+  .a-careers-c dd .intr-Header.activeds {
+    font-size: 14px;
+    background: url(../image/ee1-1.png) right 5px center no-repeat;
+    background-color: #298df2;
+    background-size: 10px;
+  }
+  .a-careers-c dd .intr-cont .applyFor {
+    text-align: center;
+  }
+  .a-careers-c .intr-cont .applyFor a {
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+  }
+  .a-careers-c .intr-cont .applyFor a span {
+    height: 35px;
+  }
+  .apply-tab {
+    display: none;
+  }
+  .mc-Apply-menu {
+    display: block;
+  }
+  .box-tit small{
+    margin-bottom: 0;
+  }
+
+  .Recruitment .recrui-cent {
+    padding: 25px 3%;
+  }
+  .apply-form form{
+    width: 100%;
+  }
+  .apply-form form .self,
+  .apply-form form label{
+    padding: 7px 1%;
+  }
+}
+@media (min-width: 768px) {
+  .talentConcept .concept-tit h3 {
+    font-size: 26px;
+  }
+  .talentConcept .concept-cont-r {
+    padding-top: 0;
+  }
+
+  .a-careers-c dt {
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .a-careers-c dd .intr-Header .w1 {
+    padding-left: 0px;
+    text-align: center;
+  }
+  .a-careers-c .intr-cont {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  .jobs-ban-img {
+    height: 230px;
+    /* margin-top: 56px; */
+  }
+  .talentConcept .concept-tit h3 {
+    font-size: 22px;
+  }
+  .talentConcept .concept-cont-r,
+  .talentConcept .concept-cont-l {
+    width: 100%;
+  }
+  .talentConcept .concept-cent {
+    width: 100%;
+    padding: 40px 3%;
+  }
+  .Recruitment .recrui-cent {
+    padding: 25px 3%;
+  }
+  .Recruitment .recrui-tit a {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+  }
+  .Recruitment .recru-p p {
+    font-size: 16px;
+  }
+  .news {
+    width: 100%;
+    padding: 20px 3%;
+  }
+  .a-careers-c dt {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .a-careers-c dd .intr-Header {
+    font-size: 12px;
+    background: url(../image/ee1-1.png) right 5px center no-repeat;
+    background-size: 10px;
+  }
+  .a-careers-c dd .intr-Header.activeds {
+    font-size: 12px;
+    background: url(../image/ee1-1.png) right 5px center no-repeat;
+    background-color: #298df2;
+    background-size: 10px;
+  }
+  .a-careers-c dd .intr-Header .w1 {
+    padding-left: 0px;
+    text-align: center;
+  }
+  .a-careers-c .intr-cont {
+    font-size: 12px;
+  }
+  .a-careers-c dd .intr-cont .applyFor {
+    text-align: center;
+  }
+  .a-careers-c .intr-cont .applyFor a {
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+  }
+  .a-careers-c .intr-cont .applyFor a span {
+    height: 35px;
+  }
+  .apply-tab {
+    display: none;
+  }
+  .mc-Apply-menu {
+    display: block;
+  }
+  .box-tit small{
+    margin-bottom: 0;
+  }
+  .apply-form form{
+    width: 100%;
+  }
+  .apply-form form .self,
+  .apply-form form label{
+    /* width: 100%; */
+    padding: 1% ;
+  }
+}
+@media (max-width: 640px) {
+  .jobs-ban-img {
+    height: 180px;
+    /* margin-top: 40px; */
+  }
+  .apply-form form .self,
+  .apply-form form label{
+    width: 100%;
+    padding: 5px 0;
+  }
+}
+@media (max-width:1200px){
+  .apply-form form .self input{
+    width: 50%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+  }
+}

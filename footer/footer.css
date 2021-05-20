@@ -1,0 +1,126 @@
+.footer {
+  width: 100%;
+  background: rgb(0, 75, 152);
+  z-index: 999999;
+}
+.footer .ft-conter {
+  width: 100%;
+  padding: 0 15%;
+  box-sizing: border-box;
+}
+.footer .ft-conter .ft-vCent {
+  width: 100%;
+  padding: 33px 0 53px 0;
+}
+
+.ft-vCent .ft-eaer {
+  width: 20%;
+  text-align: right;
+  padding-top: 5px;
+}
+
+.ft-vCent .ft-left {
+  width: 80%;
+}
+
+.ft-vCent .ft-left .l-ft-head {
+  width: 100%;
+  margin-bottom: 20px;
+  line-height: 26px;
+  color: #fff;
+  font-size: 14px;
+}
+.ft-vCent .ft-left .l-ft-head a {
+  height: 26px;
+  line-height: 26px;
+  display: inline-block;
+  padding: 0 17px;
+}
+.ft-vCent .ft-left .l-ft-head a:first-of-type {
+  padding-left: 0;
+}
+.ft-vCent .ft-left .contact {
+  width: 100%;
+  margin-bottom: 12px;
+  line-height: 22px;
+  color: #fff;
+  font-size: 14px;
+}
+.ft-vCent .copyright {
+  width: 100%;
+  padding: 5px 0;
+  line-height: 24px;
+  color: #fff;
+  font-size: 14px;
+}
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+  .footer .ft-conter {
+    width: 100%;
+    padding: 0px 2%;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .footer .ft-conter {
+    width: 100%;
+    padding: 0px 2%;
+  }
+  .footer .ft-left{
+      width: 84%;
+  }
+  .footer .ft-eaer{
+      width: 16%;
+  }
+  .footer .ft-left .l-ft-head a{
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 641px) {
+  .footer .ft-conter {
+    width: 100%;
+    padding: 0px 3%;
+  }
+  .footer .ft-vCent {
+    padding: 20px 0;
+  }
+  .footer .ft-eaer {
+    width: 100%;
+    text-align: center;
+  }
+  .footer .ft-left {
+    width: 100%;
+  }
+  .footer .ft-left .l-ft-head {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .footer .copyright,
+  .footer .contact {
+    text-align: center;
+  }
+}
+@media screen and (max-width:640px) and (min-width:0px){
+  .footer .ft-conter {
+    width: 100%;
+    padding: 0px 3%;
+  }
+  .footer .ft-vCent {
+    padding: 20px 0;
+  }
+  .footer .ft-eaer {
+    width: 100%;
+    text-align: center;
+  }
+  .footer .ft-left {
+    width: 100%;
+  }
+  .footer .ft-left .l-ft-head {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .footer .copyright,
+  .footer .contact {
+    text-align: center;
+  }
+}

@@ -1,0 +1,537 @@
+.about .about-ban {
+  width: 100%;
+  height: 650px;
+  background-image: url(../image/20190830040839356.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.tabs-tit {
+  width: 100%;
+  background-color: #eee;
+}
+
+.tabs-tit h2 {
+  width: 100%;
+  padding: 3% 0;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  line-height: 25px;
+  background: url(../image/zxl_jt1-1.jpg) right center no-repeat;
+  background-color: #004b98;
+  background-size: 30px;
+}
+
+.tabs-tit ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 65px;
+  overflow: hidden;
+}
+.tabs-tit ul li {
+  padding: 0 30px;
+  height: 65px;
+  margin: 0 10px;
+  display: inline-block;
+  overflow: hidden;
+  text-align: center;
+  line-height: 65px;
+  color: #333;
+}
+.tabs-tit ul li.active,
+.tabs-tit ul li:hover {
+  color: #fff;
+  background-color: #004b98;
+}
+.about .Introduction {
+  width: 100%;
+  overflow: auto;
+  background: url(../image/bg4-1.jpg) bottom center no-repeat;
+  background-size: cover;
+}
+.Introduction .centern .introduction-l {
+  width: 43%;
+  padding: 90px 0 90px 0;
+}
+.introduction-l span {
+  width: 100%;
+  position: relative;
+  color: #e8e8e8;
+  font-size: 104px;
+  line-height: 1;
+}
+.introduction-l h3 {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  color: #0061ae;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.introduction-l p {
+  width: 100%;
+  height: 120px;
+  line-height: 24px;
+  color: #666;
+  font-size: 15px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.introduction-l a {
+  text-decoration: none;
+  margin-top: 30px;
+  width: 105px;
+  height: 27px;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+  background: url(../image/tb_19-1.png) bottom no-repeat;
+  color: #666;
+  font-size: 12px;
+}
+.introduction-r {
+  width: 47%;
+  height: 560px;
+  position: relative;
+}
+
+.introduction-r ul {
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.introduction-r ul li {
+  width: 33.33%;
+  float: left;
+  height: 150px;
+  color: #fff;
+  padding-top: 22px;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+.introduction-r ul li.bg1 {
+  background-color: #004b98;
+}
+.introduction-r ul li.bg2 {
+  background-color: #acd4fd;
+}
+.introduction-r ul li.bg3 {
+  background-color: #58aafd;
+}
+
+.introduction-r ul li span {
+  font-size: 48px;
+}
+.companyCulture {
+  width: 100%;
+
+  box-sizing: border-box;
+}
+.com-block {
+  width: 100%;
+  height: 100%;
+  background: url(../image/tb_1-1.png), url(../image/bg5-1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-x: center !important;
+  z-index: 1;
+}
+.com-block .tb-padding {
+  width: 100%;
+  padding: 140px 0px 120px 0px;
+  color: #fff;
+}
+.com-block h3 {
+  width: 100%;
+  padding: 15px 0;
+  font-size: 38px;
+  text-align: center;
+  line-height: 1.5;
+}
+.com-block .Culture-p {
+  width: 100%;
+  height: 100px;
+  line-height: 25px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-family: "微软雅黑";
+}
+
+.com-block .Culture-a {
+  width: 100%;
+  text-align: center;
+}
+.com-block .Culture-a a {
+  text-decoration: none;
+  width: 105px;
+  height: 27px;
+  line-height: 27px;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+  background: url(../image/tb_21-1.png) bottom no-repeat;
+  color: #fff;
+  font-size: 12px;
+}
+
+.summary {
+  width: 100%;
+}
+.summary.cul-box,
+.summary.brief {
+  display: none;
+}
+.summary .summary-cont {
+  width: 100%;
+  padding: 80px 0;
+  color: #666;
+  font-size: 14px;
+  overflow: hidden;
+  line-height: 2;
+}
+
+.summary span {
+  color: #e5e5e5;
+  font-family: Arial, Helvetica, sans-serif;
+  /* vmin why??????????????????????????? */
+  font-size: 12vmin;
+  line-height: 1;
+}
+.summary h2 {
+  font-size: 3.5vmin;
+  font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+  padding-bottom: 20px;
+  color: #0061ae;
+}
+.summary .summary-p {
+  padding: 10px 0;
+  font-size: 16px;
+}
+.summary .summary-ban {
+  width: 100%;
+  padding-top: 15px;
+  overflow: hidden;
+}
+
+.my-swiper > .my-swiper-lBtn,
+.my-swiper > .my-swiper-rBtn {
+  display: none !important;
+}
+
+.my-swiper > .my-swiper-spots > span {
+  width: 6px !important;
+  height: 6px !important;
+  background: #000;
+  opacity: 0.2;
+}
+.my-swiper > .my-swiper-spots > span.active {
+  width: 8px !important;
+  height: 8px !important;
+  opacity: 1;
+  background-color: #007aff !important;
+}
+
+.cul-box strong {
+  font-weight: bold;
+}
+
+.my-swiper-item li img,
+.my-swiper-item li{
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1700px) and (min-width: 1501px) {
+  .about .about-ban {
+    height: 550px;
+  }
+  .introduction-l span {
+    font-size: 78px;
+  }
+  .introduction-r {
+    height: 525px;
+  }
+  .summary .summary-cont {
+    padding: 55px 0;
+  }
+}
+@media screen and (max-width: 1500px) and (min-width: 1401px) {
+  .about .about-ban {
+    height: 550px;
+  }
+  .introduction-r {
+    height: 525px;
+  }
+  .introduction-l span {
+    font-size: 78px;
+  }
+  .summary .summary-cont {
+    padding: 55px 0;
+  }
+}
+@media screen and (max-width: 1400px) and (min-width: 1201px) {
+  .about .about-ban {
+    height: 380px;
+  }
+  .introduction-r {
+    height: 525px;
+  }
+  .introduction-r ul li {
+    font-size: 14px;
+  }
+  .introduction-l span {
+    font-size: 72px;
+  }
+  .summary .summary-cont {
+    padding: 55px 0;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+  .about .about-ban {
+    height: 320px;
+  }
+  .Introduction .center .introduction-l {
+    padding: 30px 0;
+  }
+  .introduction-l span {
+    font-size: 55px;
+  }
+  .introduction-l h3 {
+    font-size: 25px;
+  }
+  .introduction-l p {
+    margin-bottom: 10px;
+  }
+  .introduction-r {
+    height: 350px;
+    margin-bottom: 20px;
+  }
+  .introduction-r ul li {
+    font-size: 14px;
+    padding-top: 0;
+    height: 125px;
+  }
+  .introduction-r ul {
+    height: 125px;
+  }
+  .introduction-r ul li span {
+    font-size: 48px;
+  }
+  .Introduction .centern .introduction-l {
+    padding: 30px 0;
+  }
+  .com-block .tb-padding {
+    padding: 50px 0;
+  }
+  .summary .summary-cont {
+    padding: 40px 0;
+  }
+  .tabs-tit .centern {
+    padding: 0;
+  }
+  
+}
+@media screen and (max-width:1200px) {
+  .tabs-tit h2 {
+    display: block;
+  }
+  .tabs-tit ul {
+    height: auto;
+    overflow: inherit;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 200;
+    display: none;
+    background-color: #eee;
+  }
+  .tabs-tit ul li {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+  }
+  
+  .tabs-tit ul li a{
+    width:100%;
+    padding: 3% 0px;
+    display: inline-block;
+    color: #004b98;
+    font-size: 14px;
+    text-decoration: none;
+    text-indent: 0;
+  }
+  .tabs-tit ul li.active a{
+    background-color: #eee;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .about .about-ban {
+    height: 260px;
+  }
+  .Introduction .center .introduction-l {
+    padding: 30px 0;
+  }
+  .introduction-l p {
+    margin-bottom: 10px;
+  }
+  .introduction-r {
+    height: 350px;
+    margin-bottom: 20px;
+  }
+  .introduction-r ul li {
+    font-size: 14px;
+    padding-top: 0;
+    height: 125px;
+  }
+  .introduction-l h3 {
+    font-size: 20px;
+  }
+  .introduction-l span {
+    font-size: 45px;
+  }
+  .introduction-r ul {
+    height: 125px;
+  }
+  .introduction-r ul li span {
+    font-size: 48px;
+  }
+  .Introduction .centern .introduction-l {
+    padding: 30px 0;
+  }
+  .com-block .tb-padding {
+    padding: 30px 0;
+  }
+  .com-block h3 {
+    font-size: 20px;
+  }
+  .summary .summary-cont {
+    padding: 30px 0;
+  }
+  .tabs-tit .centern {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 641px) {
+  .about .about-ban {
+    height: 230px;
+  }
+  .Introduction .center .introduction-l {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .introduction-r {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  .introduction-r ul li {
+    font-size: 12px;
+    padding-top: 0;
+    height: 125px;
+  }
+  .introduction-l p {
+    height: auto !important;
+    margin-bottom: 10px;
+  }
+  .Introduction .centern .introduction-l {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .introduction-l h3 {
+    font-size: 20px;
+  }
+  .introduction-l span {
+    font-size: 45px;
+  }
+  .introduction-r ul {
+    height: 125px;
+  }
+  .introduction-r ul li span {
+    font-size: 48px;
+  }
+  .Introduction .centern .introduction-l {
+    padding: 30px 0;
+  }
+  .com-block .tb-padding {
+    padding: 30px 0;
+  }
+  .com-block h3 {
+    font-size: 20px;
+  }
+  .summary .summary-cont {
+    padding: 20px 0;
+  }
+  .tabs-tit .centern {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 640px) and (min-width: 0px) {
+  .n_banner {
+    height: 180px;
+  }
+  .Introduction .center .introduction-l {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .introduction-r {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  .introduction-r ul li {
+    font-size: 12px;
+    padding-top: 0;
+    height: 125px;
+  }
+  .introduction-l p {
+    height: auto !important;
+    margin-bottom: 10px;
+  }
+  .Introduction .centern .introduction-l {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .introduction-l h3 {
+    font-size: 20px;
+  }
+  .introduction-l span {
+    font-size: 45px;
+  }
+  .introduction-r ul {
+    height: 125px;
+  }
+  .introduction-r ul li span {
+    font-size: 48px;
+  }
+  .Introduction .centern .introduction-l {
+    padding: 30px 0;
+  }
+  .com-block .tb-padding {
+    padding: 30px 0;
+  }
+  .com-block h3 {
+    font-size: 20px;
+  }
+  .summary .summary-cont {
+    padding: 20px 0;
+  }
+  .tabs-tit .centern {
+    padding: 0;
+  }
+}
